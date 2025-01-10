@@ -3,8 +3,6 @@ package com.example.infrastructure.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.UUID;
-
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -12,7 +10,7 @@ import java.util.UUID;
 @Getter
 @Setter
 @Table(name = "entity")
-public class MyEntity {
+public class EntityExample {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
