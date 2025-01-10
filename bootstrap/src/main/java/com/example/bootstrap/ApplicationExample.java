@@ -10,8 +10,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan(basePackages = "com.example")
 @EntityScan(basePackages = "com.example.infrastructure.model")
 @EnableJpaRepositories("com.example.infrastructure.persistance")
-public class Application {
+public class ApplicationExample {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ApplicationExample.class, args);
     }
 }
